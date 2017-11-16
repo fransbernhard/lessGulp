@@ -1,6 +1,22 @@
 body {
-  background: @project-primary-light;
+  background: @primary;
   width: 100vw;
   height: 100vh;
+}
+
+header {
+  background: @primary-light;
   .flexCenterCenter-mixin;
+  p {
+    color: @primary;
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  padding: 1rem;
+  text-align: center;
+  color: @primary
 }
